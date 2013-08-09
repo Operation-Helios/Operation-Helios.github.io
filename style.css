@@ -1,0 +1,99 @@
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #06090f;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	max-width: 1024px;
+	margin: 0px auto;
+}
+
+#header {
+	height: 57px;
+	width: 80%;
+	max-width: 1024px;
+	display: table;
+	float: left;
+	position: fixed;
+	
+	background-color: #06090f;
+	border-bottom: 3px solid #afb7bc;
+	
+	font-family: 'Titillium Web', sans-serif;
+	color: #afb7bc;
+	white-space: nowrap;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+}
+
+#logo {
+	padding: 7px 30px 0px 42px;
+	display: table-cell;
+	text-transform: uppercase;
+}
+
+#logo:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#logo:active {
+	background-color: #0c111d;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#logo-top {
+	padding-right: 0.1em;
+	text-align: right;
+	font-weight: 300;
+	line-height: 100%;
+}
+
+#logo-bottom {
+	font-size: 200%;
+	font-weight: 600;
+	line-height: 70%;
+}
+
+.button {
+	height: 100%;
+	padding: 4px 13px;
+	display: table-cell;
+	vertical-align: bottom;
+	
+	font-weight: 600;
+	font-size: 125%;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color: #0c111d;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.button:active {
+	background-color: #d9dcdf;
+	color: #4c6bb5;
+	cursor: pointer;
+}
+
+#space {
+	display: table-cell;
+	width: 100%;
+}
+
+#content {
+	height: 100%;
+	width: auto;
+	padding: 60px 42px 10px 42px;
+}
