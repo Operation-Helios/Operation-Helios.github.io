@@ -5,6 +5,11 @@ html, body {
 	background-color: #06090f;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 #wrapper {
 	width: 80%;
 	min-width: 600px;
