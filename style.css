@@ -46,9 +46,10 @@ a {
 	text-transform: uppercase;
 }
 
-#logo:hover {
+#logo:hover, #logo:focus {
 	color: #ffffff;
 	cursor: pointer;
+	outline: none;
 }
 
 #logo:active {
@@ -81,10 +82,11 @@ a {
 	text-transform: uppercase;
 }
 
-.button:hover {
+.button:hover, .button:focus {
 	background-color: #0c111d;
 	color: #ffffff;
 	cursor: pointer;
+	outline: none;
 }
 
 .button:active {
