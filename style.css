@@ -25,6 +25,7 @@ html, body {
 	
 	font-family: 'Titillium Web', sans-serif;
 	color: #afb7bc;
+	text-shadow: -1px -1px 0px #1a1d1e;
 	white-space: nowrap;
 	
 	user-select: none;
