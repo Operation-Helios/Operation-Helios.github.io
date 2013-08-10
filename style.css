@@ -21,7 +21,7 @@ html, body {
 	position: fixed;
 	
 	background-color: #06090f;
-	border-bottom: 3px solid #afb7bc;
+	border-bottom: 3px solid #cbd0d3;
 	
 	font-family: 'Titillium Web', sans-serif;
 	color: #afb7bc;
@@ -97,4 +97,44 @@ html, body {
 	height: 100%;
 	width: auto;
 	padding: 60px 42px 10px 42px;
+}
+
+.post {
+	margin: -4px 0px 31px 0px;
+	padding: 19px 19px 19px 42px;
+	background-color: #070b14;
+	color: #cbd0d3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 105%;
+	line-height: 1.5;
+}
+
+.title {
+	margin-bottom: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 170%;
+	color: #e7e9eb;
+	text-shadow: -1px -1px 0px #1a1d1e;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+}
+
+#footer {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 90%;
+	text-align: right;
+	color: #40474c;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
 }
