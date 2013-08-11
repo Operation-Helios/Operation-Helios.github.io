@@ -12,7 +12,7 @@ a {
 	text-decoration: inherit;
 }
 
-#header, #footer, .bigtitle, .title {
+#header, #footer, .bigtitle, .title, .date {
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
