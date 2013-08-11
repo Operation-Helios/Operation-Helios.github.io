@@ -62,6 +62,10 @@ a {
 	cursor: pointer;
 }
 
+#logo.selected {
+	color: #ffffff;
+}
+
 #logo-top {
 	padding-right: 0.1em;
 	text-align: right;
@@ -97,6 +101,10 @@ a {
 	background-color: #d9dcdf;
 	color: #4c6bb5;
 	cursor: pointer;
+}
+
+.button.selected {
+	background-color: #0c111d;
 }
 
 #space {
