@@ -142,9 +142,10 @@ a {
 }
 
 .date {
-	margin: 6px 13px 0px 23px;
+	margin: 1px 13px 0px 23px;
 	float: right;
 	font-weight: 600;
+	font-size: 120%;
 	color: #213560;
 }
 
