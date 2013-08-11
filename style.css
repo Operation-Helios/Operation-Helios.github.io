@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,600|Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,600|Open+Sans:300,600);
 
 html, body {
 	margin: 0px;
@@ -121,7 +121,7 @@ a {
 
 .post {
 	margin: -4px 0px 31px 0px;
-	padding: 19px 19px 19px 42px;
+	padding: 27px 27px 19px 42px;
 	background-color: #070b14;
 	color: #cbd0d3;
 	font-family: 'Open Sans', sans-serif;
@@ -137,6 +137,15 @@ a {
 	font-size: 170%;
 	color: #e7e9eb;
 	text-shadow: -1px -1px 0px #1a1d1e;
+	display: table-cell;
+	line-height: 100%;
+}
+
+.date {
+	margin: 6px 13px 0px 23px;
+	float: right;
+	font-weight: 600;
+	color: #213560;
 }
 
 #footer {
