@@ -10,6 +10,14 @@ a {
 	text-decoration: inherit;
 }
 
+#header, #footer, .bigtitle, .title {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+}
+
 #wrapper {
 	width: 80%;
 	min-width: 600px;
@@ -32,12 +40,6 @@ a {
 	color: #afb7bc;
 	text-shadow: -1px -1px 0px #1a1d1e;
 	white-space: nowrap;
-	
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	cursor: default;
 }
 
 #logo {
@@ -106,6 +108,15 @@ a {
 	padding: 60px 42px 10px 42px;
 }
 
+.bigtitle {
+	margin: 13px 10px 17px 42px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 210%;
+	color: #cbd0d3;
+	text-shadow: -1px -1px 0px #1a1d1e;
+}
+
 .post {
 	margin: -4px 0px 31px 0px;
 	padding: 19px 19px 19px 42px;
@@ -124,12 +135,6 @@ a {
 	font-size: 170%;
 	color: #e7e9eb;
 	text-shadow: -1px -1px 0px #1a1d1e;
-	
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	cursor: default;
 }
 
 #footer {
@@ -139,10 +144,4 @@ a {
 	font-size: 90%;
 	text-align: right;
 	color: #343a3e;
-	
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	cursor: default;
 }
