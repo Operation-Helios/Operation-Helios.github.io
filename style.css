@@ -142,6 +142,12 @@ p {
 	line-height: 1.6;
 }
 
+.anchor {
+	display: block;
+	position: relative;
+	top: -87px;
+}
+
 .title {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
@@ -150,6 +156,12 @@ p {
 	text-shadow: -1px -1px 0px #1a1d1e;
 	display: table-cell;
 	line-height: 100%;
+}
+
+a.title:hover, a.title:focus {
+	color: #efae12;
+	cursor: pointer;
+	outline: none;
 }
 
 .date {
