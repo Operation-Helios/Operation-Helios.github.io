@@ -156,6 +156,10 @@ p {
 	color: #efae12;
 }
 
+.post strong {
+	font-weight: bold;
+}
+
 .anchor {
 	display: block;
 	position: relative;
