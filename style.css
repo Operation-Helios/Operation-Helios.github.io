@@ -142,6 +142,16 @@ p {
 	line-height: 1.6;
 }
 
+.post a {
+	margin: 19px 0px 19px 0px;
+	color: #f5cd6e;
+	display: block;
+}
+
+.post a:hover {
+	color: #efae12;
+}
+
 .anchor {
 	display: block;
 	position: relative;
