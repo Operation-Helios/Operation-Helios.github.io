@@ -131,6 +131,20 @@ p {
 	text-shadow: -1px -1px 0px #1a1d1e;
 }
 
+.info {
+	margin: 0px 0px 21px 42px;
+	color: #cbd0d3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 105%;
+	line-height: 1.6;
+}
+
+.info a {
+	color: #f5cd6e;
+	display: inline;
+}
+
 .post {
 	margin: -4px 0px 31px 0px;
 	padding: 27px 27px 19px 42px;
@@ -152,7 +166,7 @@ p {
 	display: inline;
 }
 
-.post a:hover {
+.post a:hover, .info a:hover {
 	color: #efae12;
 }
 
