@@ -149,7 +149,7 @@ p {
 }
 
 .post p a {
-	display: inline-block;
+	display: inline;
 }
 
 .post a:hover {
