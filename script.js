@@ -1,6 +1,5 @@
 
-function scrollToPosition(position)
-{
+function scrollToPosition(position) {
 	var from = {count: $(document).scrollTop()};
 	var to = {count: position};
 	
@@ -9,8 +8,7 @@ function scrollToPosition(position)
 	}});
 }
 
-function scrollToPost(postid)
-{
+function scrollToPost(postid) {
 	var target = $(postid).parent().offset().top - 60;
 	scrollToPosition(target);
 }
