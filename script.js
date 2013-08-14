@@ -14,8 +14,8 @@ function scrollToPost(postid) {
 }
 
 $(document).ready(function () {
-	$(".post a").bind("click", function (e) {
-		var target = $(e.currentTarget).attr("href");
+	$('.post a').bind('click', function (e) {
+		var target = $(e.currentTarget).attr('href');
 		scrollToPost(target);
 	});
 });
