@@ -162,7 +162,7 @@ p {
 	top: -87px;
 }
 
-.title {
+.title, .post .title {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	font-size: 170%;
