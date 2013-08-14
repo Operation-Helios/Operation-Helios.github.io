@@ -148,6 +148,10 @@ p {
 	display: block;
 }
 
+.post p a {
+	display: inline-block;
+}
+
 .post a:hover {
 	color: #efae12;
 }
