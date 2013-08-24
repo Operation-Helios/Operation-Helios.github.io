@@ -14,6 +14,9 @@ function scrollToPost(postid) {
 }
 
 $(document).ready(function () {
+	if (navigator.userAgent.match(/Mobile|Android|iPhone|iPod|iPad/gi))
+		$('#header').css('position', 'absolute');
+	
 	$('.post a').bind('click', function (e) {
 		var target = $(e.currentTarget).attr('href');
 		scrollToPost(target);
