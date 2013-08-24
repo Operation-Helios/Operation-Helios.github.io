@@ -1,24 +1,28 @@
 
-function scrollToPosition(position) {
+function scrollToPost(postid) {
+	var target = $(postid).parent().offset().top - 60;
 	var from = {count: $(document).scrollTop()};
-	var to = {count: position};
+	var to = {count: target};
 	
 	$(from).animate(to, {duration: 100, step: function (stepNumber, fx) {
 		$(document).scrollTop(stepNumber);
 	}});
 }
 
-function scrollToPost(postid) {
-	var target = $(postid).parent().offset().top - 60;
-	scrollToPosition(target);
-}
-
 $(document).ready(function () {
-	if (navigator.userAgent.match(/Mobile|Android|iPhone|iPod|iPad/gi))
-		$('#header').css('position', 'absolute');
+	var isMobile = false;
 	
-	$('.post a').bind('click', function (e) {
-		var target = $(e.currentTarget).attr('href');
-		scrollToPost(target);
-	});
+	$('.comments-button').html('Load comments');
+	
+	if (navigator.userAgent.match(/Mobile|Android|iPhone|iPod|iPad/gi)) {
+		isMobile = true;
+		$('#header').css('position', 'absolute');
+	}
+	
+	if (!isMobile) {
+		$('.post a').bind('click', function (e) {
+			var target = $(e.currentTarget).attr('href');
+			scrollToPost(target);
+		});
+	}
 });
