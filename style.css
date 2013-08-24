@@ -16,7 +16,13 @@ p {
 	margin: 19px 0px 19px 0px;
 }
 
-#header, #footer, .bigtitle, .title, .date {
+iframe {
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	border: none;
+}
+
+#header, #footer, .bigtitle, .title, .date, .author, .comments-button {
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -198,11 +204,11 @@ a.title:hover, a.title:focus {
 }
 
 .date {
-	margin: 1px 13px 0px 23px;
+	margin: 1px 0px 0px 23px;
 	float: right;
 	font-weight: 600;
 	font-size: 120%;
-	color: #213560;
+	color: #8fa5d8;
 }
 
 #footer {
@@ -234,4 +240,29 @@ a.title:hover, a.title:focus {
 	left: 0px;
 	height: 100%;
 	width: 100%;
+}
+
+.comments-button {
+	display: table-cell;
+	color: #869299;
+	font-size: 90%;
+}
+
+.comments-button:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.author {
+	display: block;
+	float: right;
+	color: #8fa5d8;
+	font-size: 90%;
+}
+
+.comment-box {
+	margin: 0px -27px 0px -42px;
+	padding: 0px 27px 0px 42px;
+	background-color: #0a101d;
+	overflow: hidden;
 }
