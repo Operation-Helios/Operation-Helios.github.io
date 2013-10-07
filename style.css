@@ -32,7 +32,7 @@ iframe {
 
 #wrapper {
 	width: 80%;
-	min-width: 600px;
+	min-width: 705px;
 	max-width: 1024px;
 	margin: 0px auto;
 }
@@ -40,6 +40,7 @@ iframe {
 #header {
 	height: 57px;
 	width: 80%;
+	min-width: 705px;
 	max-width: 1024px;
 	display: table;
 	float: left;
