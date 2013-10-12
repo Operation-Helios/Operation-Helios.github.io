@@ -267,3 +267,11 @@ a.title:hover, a.title:focus {
 	background-color: #0a101d;
 	overflow: hidden;
 }
+
+li {
+	font-weight: bold;
+}
+
+li > ul > li {
+	font-weight: normal;
+}
