@@ -236,6 +236,7 @@ a.title:hover, a.title:focus {
 }
 
 .video-container iframe {
+	margin: 0px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
