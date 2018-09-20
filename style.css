@@ -2,9 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,600|Open+Sans:300,600);
 
 html, body {
+	background: url(out7_A_webopt.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin: 0px;
 	padding: 0px;
-	background-color: #06090f;
 }
 
 a {
@@ -157,6 +161,8 @@ iframe {
 	margin: -4px 0px 31px 0px;
 	padding: 27px 27px 19px 42px;
 	background-color: #070b14;
+	opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
 	color: #cbd0d3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -173,6 +179,11 @@ iframe {
 .post p a {
 	display: inline;
 }
+
+.post ul a {
+	display: inline;
+}
+
 
 .post a:hover, .info a:hover {
 	color: #efae12;
@@ -269,10 +280,6 @@ a.title:hover, a.title:focus {
 	overflow: hidden;
 }
 
-li {
-	font-weight: bold;
-}
 
-li > ul > li {
-	font-weight: normal;
-}
+
+
